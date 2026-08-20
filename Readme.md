@@ -1,10 +1,19 @@
 # Liste des taches
-*Etudiant* => Adama dieng
 
-*Enseignant* => Lalla bint
+## Environnement de dev
+s'inspirer du fichier *requete.sql* 
+pour creer l'env de dev
 
-*Entreprise* => Mbaye ndiaye
 
-*Stage* => Mor Ndiaye
+## Creer les entités simple
+Creer les entités sans tenir en compte les relations entre elles
 
-*Offre* => Oviebo
+- *Etudiant* => Adama dieng
+
+- *Enseignant* => Lalla bint
+
+- *Entreprise* => Mbaye ndiaye
+
+- *Stage* => Mor Ndiaye
+
+- *Offre* => Oviebo
