@@ -7,10 +7,12 @@ import jakarta.persistence.Persistence;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         EntityManagerFactory emf = Persistence
                 .createEntityManagerFactory("groupeisi");
         EntityManager em = emf.createEntityManager();
+
+        System.out.println("EntityManagerFactory et EntityManager initialises avec succes !");
 
         em.close();
         emf.close();
