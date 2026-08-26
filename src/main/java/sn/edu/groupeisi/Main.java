@@ -3,6 +3,7 @@ package sn.edu.groupeisi;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
+import sn.edu.groupeisi.modeles.Entreprise;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -12,7 +13,9 @@ public class Main {
                 .createEntityManagerFactory("groupeisi");
         EntityManager em = emf.createEntityManager();
 
+
         em.close();
         emf.close();
+
     }
 }

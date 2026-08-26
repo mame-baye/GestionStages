@@ -4,7 +4,8 @@
              version="3.0">
     <persistence-unit name="groupeisi" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-        <!--class>sn.edu.groupeisi.Toto</--class-->
+        <!--class>sn.edu.groupeisi.Toto</class-->
+        <class>sn.edu.groupeisi.modeles.Entreprise</class>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/gestion_stages?zeroDateTimeBehavior=CONVERT_TO_NULL&#38;autoReconnect=true&#38;useSSL=false"/>
             <!--property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/ucak_boutique"/-->
